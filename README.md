@@ -3,7 +3,7 @@
 # **CrudWithAspNetCore**
 
 1 -  Create a DB with **SSMS**
-CREATE TABLE [dbo].[Beacons](
+>CREATE TABLE [dbo].[Beacons](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Mac] [int] NULL,
 	[Type] [nvarchar](100) NULL,
