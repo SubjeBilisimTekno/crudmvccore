@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
+<body class="containerex"> @*<body class="containerex">*@
     <header>
         <nav class="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
-            <div class="container">
+            <div class="container"> @*<body class="container">*@
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CrudMVCCore</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +29,30 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="containerex">@*<div class="container">*@
+    <main role="main" class="containerex">
+        @RenderBody()
+    </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2020 - CrudMVCCore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
+        <style>
+
+            .containerex {
+                /*display: block;*/ /* iframes are inline by default */
+                /*background: #000;
+                border: none;*/ /* Reset default border */
+                height: 100vh; /*Viewport-relative units */
+                width: 100vw;
+                margin: 0; /* Reset default margin */
+            }
+        </style>
+
+
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
