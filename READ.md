@@ -52,3 +52,6 @@ this context service is injected with the required controllers via dependency in
                     pattern: "{controller=Beacons}/{action=Index}/{id?}");
             });
 
+9- force to scaffold for adding a second model class:
+
+>PM> Scaffold-DbContext “Server=localhost;Database=DashboardDB;Trusted_Connection=True;” Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Gateways -force

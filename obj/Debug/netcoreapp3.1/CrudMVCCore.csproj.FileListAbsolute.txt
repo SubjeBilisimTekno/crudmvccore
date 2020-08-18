@@ -2,7 +2,6 @@ D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\appsettings.Develop
 D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\appsettings.json
 D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\CrudMVCCore.exe
-D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.csprojAssemblyReference.cache
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.AssemblyInfoInputs.cache
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.AssemblyInfo.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.RazorAssemblyInfo.cache
@@ -173,3 +172,8 @@ D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Beacons
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Beacons\Details.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Beacons\Edit.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Beacons\Index.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Create.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Delete.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Details.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Edit.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Index.cshtml.g.cs
