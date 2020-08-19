@@ -54,7 +54,7 @@ namespace CrudMVCCore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Beacons}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

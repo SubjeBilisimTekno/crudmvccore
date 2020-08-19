@@ -17,6 +17,10 @@ namespace CrudMVCCore.Models
 
         public virtual DbSet<Beacons> Beacons { get; set; }
         public virtual DbSet<Gateways> Gateways { get; set; }
+        public virtual DbSet<Persons> Persons { get; set; }
+        public virtual DbSet<Locations> Locations { get; set; }
+
+
         //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //        {
         //            if (!optionsBuilder.IsConfigured)
@@ -56,6 +60,18 @@ namespace CrudMVCCore.Models
                 entity.Property(e => e.Name).HasMaxLength(100);
 
                 entity.Property(e => e.Type).HasMaxLength(100);
+            });
+
+            modelBuilder.Entity<Persons>(entity =>
+            {
+                entity.Property(e => e.Location).HasMaxLength(100);
+
+                entity.Property(e => e.Name).HasMaxLength(100);
+            });
+
+            modelBuilder.Entity<Locations>(entity =>
+            {
+                entity.Property(e => e.Name).HasMaxLength(100);
             });
 
 

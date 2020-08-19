@@ -55,3 +55,26 @@ this context service is injected with the required controllers via dependency in
 9- force to scaffold for adding a second model class:
 
 >PM> Scaffold-DbContext “Server=localhost;Database=DashboardDB;Trusted_Connection=True;” Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Gateways -force
+
+10- add new tables in SSMS
+
+>CREATE TABLE [dbo].[Locations](
+	[Id] [int] IDENTITY(1,1) NOT NULL,	
+	[Name] [nvarchar](100) NULL,
+	
+ CONSTRAINT [PK_Locations] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+CREATE TABLE [dbo].[Persons](
+	[Id] [int] IDENTITY(1,1) NOT NULL,	
+	[Name] [nvarchar](100) NULL,
+	[Location] [nvarchar](100) NULL,	
+	[Phone] [int] NULL,
+ CONSTRAINT [PK_Persons] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]

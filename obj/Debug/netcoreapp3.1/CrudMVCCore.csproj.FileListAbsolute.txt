@@ -177,3 +177,14 @@ D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateway
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Details.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Edit.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Gateways\Index.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.csprojAssemblyReference.cache
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Create.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Delete.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Details.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Edit.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Persons\Index.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Create.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Delete.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Details.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Edit.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Index.cshtml.g.cs
