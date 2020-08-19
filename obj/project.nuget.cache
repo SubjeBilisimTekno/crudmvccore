@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XPGx5ZCyheJi+S3fUI7uxDg70v8HoBKEm+qR54sRHAFiYAyT02g8VDB+JJR0PRJNXrUmqRWkPGp35wl/BDEN7Q==",
+  "dgSpecHash": "ABVt9IWri6Pyq6yTLU2cd6VsQxejHacIb+i7mbh3N03LtCaIdclZgz+IVd6xBP1v2Q2r6R1rJR7KAoKYAaN2pw==",
   "success": true,
   "projectFilePath": "D:\\vstempsamples\\beacons\\CrudMVCCore\\CrudMVCCore.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,7 @@
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\amayali\\.nuget\\packages\\microsoft.odata.edm\\7.7.0\\microsoft.odata.edm.7.7.0.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.4\\microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.4\\microsoft.visualstudio.web.codegeneration.contracts.3.1.4.nupkg.sha512",
     "C:\\Users\\amayali\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.4\\microsoft.visualstudio.web.codegeneration.core.3.1.4.nupkg.sha512",

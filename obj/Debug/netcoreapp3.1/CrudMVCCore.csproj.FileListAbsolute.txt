@@ -165,8 +165,6 @@ D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAn
 D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.csproj.CoreCompileInputs.cache
-D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.MvcApplicationPartsAssemblyInfo.cache
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Beacons\Create.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Beacons\Delete.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Beacons\Details.cshtml.g.cs
@@ -188,3 +186,7 @@ D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locatio
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Details.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Edit.cshtml.g.cs
 D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Index.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\Razor\Views\Random\Index.cshtml.g.cs
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.csproj.CoreCompileInputs.cache
+D:\vstempsamples\beacons\CrudMVCCore\obj\Debug\netcoreapp3.1\CrudMVCCore.MvcApplicationPartsAssemblyInfo.cache
+D:\vstempsamples\beacons\CrudMVCCore\bin\Debug\netcoreapp3.1\Microsoft.OData.Edm.dll
