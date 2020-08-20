@@ -82,6 +82,13 @@ namespace CrudMVCCore.Models
                 entity.Property(e => e.Rssi).HasColumnName("rssi");
             });
 
+            modelBuilder.Entity<Locations>().HasData(
+                 new Locations { Id = 1, Name = "Ofis-1" },
+                 new Locations { Id = 2, Name = "Ofis-2" },
+                 new Locations { Id = 3, Name = "Ofis-3" },
+                 new Locations { Id = 4, Name = "Ofis-4" }
+                );
+
             OnModelCreatingPartial(modelBuilder);
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vstempsamples\\beacons\\CrudMVCCore\\CrudMVCCore.csproj": {}
+    "D:\\subject\\crudmvccore\\CrudMVCCore.csproj": {}
   },
   "projects": {
-    "D:\\vstempsamples\\beacons\\CrudMVCCore\\CrudMVCCore.csproj": {
+    "D:\\subject\\crudmvccore\\CrudMVCCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vstempsamples\\beacons\\CrudMVCCore\\CrudMVCCore.csproj",
+        "projectUniqueName": "D:\\subject\\crudmvccore\\CrudMVCCore.csproj",
         "projectName": "CrudMVCCore",
-        "projectPath": "D:\\vstempsamples\\beacons\\CrudMVCCore\\CrudMVCCore.csproj",
+        "projectPath": "D:\\subject\\crudmvccore\\CrudMVCCore.csproj",
         "packagesPath": "C:\\Users\\amayali\\.nuget\\packages\\",
-        "outputPath": "D:\\vstempsamples\\beacons\\CrudMVCCore\\obj\\",
+        "outputPath": "D:\\subject\\crudmvccore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amayali\\AppData\\Roaming\\NuGet\\NuGet.Config",
