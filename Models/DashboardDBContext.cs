@@ -20,6 +20,7 @@ namespace CrudMVCCore.Models
         public virtual DbSet<Persons> Persons { get; set; }
         public virtual DbSet<Locations> Locations { get; set; }
 
+        public virtual DbSet<Graphics> Graphics { get; set; }
 
         //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //        {
@@ -74,6 +75,12 @@ namespace CrudMVCCore.Models
                 entity.Property(e => e.Name).HasMaxLength(100);
             });
 
+            modelBuilder.Entity<Graphics>(entity =>
+            {
+                entity.Property(e => e.Location).HasMaxLength(100);
+
+                entity.Property(e => e.Rssi).HasColumnName("rssi");
+            });
 
             OnModelCreatingPartial(modelBuilder);
         }
