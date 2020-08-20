@@ -19,26 +19,64 @@
         border: none; /* Reset default border */
         height: 90vh; /* Viewport-relative units */
         width: 95vw;
-        margin: 1vw;
-        padding: 2px;
+      /*  margin: 1vw;*/
+        padding: 1px;
     }
 </style>
 
 <div class="container">
     <h1>@ViewData["Title"]</h1>
-    <p>AI Report for Anomaly Detection.</p>
+    <h2>AI Report for Anomaly Detection.</h2>
 
+    <br />
 
     <div class="table">
 
-        <p>Ofisler Genel Görüntüsü</p>
+        <h3>Ofisler Genel Görüntüsü</h3>
         <div class="ipicture">
             @*<div style="padding:10px; width:auto ; height:auto;">*@
+            <br />
+            <br />
             @if (imagePath != "")
             {
                 <img src="~/images/pic99.JPG" alt="Sample Image" runat="server" />
             }
-        </div>
+            <br />
+            <br />
+            <br />
+            <h4>Normal Detection</h4>
+            @if (imagePath != "")
+            {
+                <img src="~/images/pic11.JPG" alt="Sample Image" runat="server" />
+            }
+            <br />
+            <br />
+            <br />
+            <h4>Anomaly Detection</h4>
+            @if (imagePath != "")
+            {
+                <img src="~/images/pic12.JPG" alt="Sample Image" runat="server" />
+            }
+            <br />
+            <br />
+            <br />
+            <h4>Normal Detection</h4>
+            @if (imagePath != "")
+            {
+                <img src="~/images/pic13.JPG" alt="Sample Image" runat="server" />
+            }
+            <br />
+            <br />
+            <br />
+            <h4>Normal Detection</h4>
+            @if (imagePath != "")
+            {
+                <img src="~/images/pic14.JPG" alt="Sample Image" runat="server" />
+            }
+            <br />
+            <br />
+            <br />
+        </div>       
     </div>
 </div>
 
