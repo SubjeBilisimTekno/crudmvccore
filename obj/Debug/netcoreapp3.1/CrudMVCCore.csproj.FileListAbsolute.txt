@@ -408,3 +408,4 @@ D:\subject\crudmvccore\obj\Debug\netcoreapp3.1\staticwebassets\CrudMVCCore.Stati
 D:\subject\crudmvccore\obj\Debug\netcoreapp3.1\CrudMVCCore.dll
 D:\subject\crudmvccore\obj\Debug\netcoreapp3.1\CrudMVCCore.pdb
 D:\subject\crudmvccore\obj\Debug\netcoreapp3.1\CrudMVCCore.genruntimeconfig.cache
+D:\subject\crudmvccore\obj\Debug\netcoreapp3.1\Razor\Views\AI\Index.cshtml.g.cs

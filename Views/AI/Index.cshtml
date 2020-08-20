@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "AI Reports";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{ var imagePath = @"~\images\pic2.JPG";
+
+}
+
+
+<style>
+    .body {
+        margin: 0; /* Reset default margin */
+    }
+
+    .ipicture {
+        /*display: block;*/ /* iframes are inline by default */
+        /*background: #000;*/
+        border: none; /* Reset default border */
+        height: 90vh; /* Viewport-relative units */
+        width: 95vw;
+        margin: 1vw;
+        padding: 2px;
+    }
+</style>
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+    <p>AI Report for Anomaly Detection.</p>
+
+
+    <div class="table">
+
+        <p>Ofisler Genel Görüntüsü</p>
+        <div class="ipicture">
+            @*<div style="padding:10px; width:auto ; height:auto;">*@
+            @if (imagePath != "")
+            {
+                <img src="~/images/pic99.JPG" alt="Sample Image" runat="server" />
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
