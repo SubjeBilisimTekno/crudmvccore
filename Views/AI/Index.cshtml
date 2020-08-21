@@ -31,52 +31,63 @@
     <br />
 
     <div class="table">
-
-        <h3>Ofisler Genel Görüntüsü</h3>
-        <div class="ipicture">
-            @*<div style="padding:10px; width:auto ; height:auto;">*@
-            <br />
-            <br />
-            @if (imagePath != "")
-            {
-                <img src="~/images/pic99.JPG" alt="Sample Image" runat="server" />
-            }
-            <br />
-            <br />
-            <br />
-            <h4>Normal Detection</h4>
-            @if (imagePath != "")
-            {
-                <img src="~/images/pic11.JPG" alt="Sample Image" runat="server" />
-            }
-            <br />
-            <br />
-            <br />
-            <h4>Anomaly Detection</h4>
-            @if (imagePath != "")
-            {
-                <img src="~/images/pic12.JPG" alt="Sample Image" runat="server" />
-            }
-            <br />
-            <br />
-            <br />
-            <h4>Normal Detection</h4>
-            @if (imagePath != "")
-            {
-                <img src="~/images/pic13.JPG" alt="Sample Image" runat="server" />
-            }
-            <br />
-            <br />
-            <br />
-            <h4>Normal Detection</h4>
-            @if (imagePath != "")
-            {
-                <img src="~/images/pic14.JPG" alt="Sample Image" runat="server" />
-            }
-            <br />
-            <br />
-            <br />
-        </div>       
+        <span class="badge badge-primary">
+            <h3>Ofisler Genel Görüntüsü</h3>
+            </span>
+            <div class="ipicture">
+                @*<div style="padding:10px; width:auto ; height:auto;">*@
+                <br />
+                <br />
+                @if (imagePath != "")
+                {
+                    <img src="~/images/pic99.JPG" alt="Sample Image" runat="server" />
+                }
+                <br />
+                <br />
+                <br />
+                <span class="badge badge-success">
+                    <h4>Normal Detection</h4>
+                </span>
+                @if (imagePath != "")
+                {
+                    <img src="~/images/pic111.JPG" alt="Sample Image" runat="server" />
+                }
+                <br />
+                <br />
+                <br />
+                <span class="badge badge-danger">
+                    <h4>Anomaly Detection !!!</h4>
+                    <p>Not in correct location , Prohibited Zone</p>
+                    <h4>Personel-16</h4>
+                </span>
+                @if (imagePath != "")
+                {
+                    <img src="~/images/pic122.JPG" alt="Sample Image" runat="server" />
+                }                
+                <br />
+                <br />
+                <br />
+                <span class="badge badge-success">
+                    <h4>Normal Detection</h4>
+                </span>
+                @if (imagePath != "")
+                {
+                    <img src="~/images/pic133.JPG" alt="Sample Image" runat="server" />
+                }
+                <br />
+                <br />
+                <br />
+                <span class="badge badge-success">
+                    <h4>Normal Detection</h4>
+                </span>
+                @if (imagePath != "")
+                {
+                    <img src="~/images/pic144.JPG" alt="Sample Image" runat="server" />
+                }
+                <br />
+                <br />
+                <br />
+            </div>
     </div>
 </div>
 

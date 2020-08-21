@@ -10,8 +10,10 @@
 <body class="containerex"> @*<body class="containerex">*@
     <header>
         <nav class="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
-            <div class="container"> @*<body class="container">*@
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Subje Bilişim Beacon Takip Projesi</a>
+            <div class="container">
+                @*<body class="container">*@
+                <img src="~/images/logo.JPG" alt="Sample Image" runat="server" />
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Beacon Takip Projesi</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,8 +45,8 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="AI" asp-action="Index">AI Reports</a>
                         </li>
                         @*<li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Graphics" asp-action="Index">Graph</a>
-                        </li>*@
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Graphics" asp-action="Index">Graph</a>
+                </li>*@
 
                     </ul>
                 </div>
@@ -70,6 +72,15 @@
                 height: 100vh; /*Viewport-relative units */
                 width: 100vw;
                 margin: 0; /* Reset default margin */
+            }
+            .containerex1 {
+                /*display: block;*/ /* iframes are inline by default */
+                /*background: #000;
+                border: none;*/ /* Reset default border */
+                height: 100vh; /*Viewport-relative units */
+                width: 100vw;
+                margin: 0; /* Reset default margin */
+                background: #cecdcd ;
             }
         </style>
 
